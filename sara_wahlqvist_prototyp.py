@@ -127,9 +127,7 @@ def ärInmatningRätt(inmatning, svar):
 
 def tränaPåAtomvikt():
     '''Skriver ut slumpadAtombeteckning och frågar användaren vilken atomvikt atomen i fråga har. Tre alternativ presenteras varav en är slumpadAtomvikt
-       och de två andra slumpas (atombeteckningen slumpadAtomnbeteckning får ej förekomma). Ordningen i vilken dessa alternativ skrivs ut randomiseras.
-       Felhantering: try-except sats
-       Inparameter: ej definierat än'''
+       och de två andra slumpas (atombeteckningen slumpadAtomnbeteckning får ej förekomma). Ordningen i vilken dessa alternativ skrivs ut randomiseras.'''
     pass
        
 
