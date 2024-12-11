@@ -71,7 +71,7 @@ def läsInFrånFil():
        samtliga textstycken separerade med " ". Samtliga objekt läggs till i en lista vid namn 'atomer'. Anropar funktionen bestämAtomnummer().
        Inparameter: -
        Returvärde: returvärdet från funktionen bestämAtomnummer(), dvs. atomlista (lista) '''
-    with open("avikt.txt","r", encoding="utf-8") as atomfil:
+    with open("atomvärden.txt","r", encoding="utf-8") as atomfil:
         atomerUtanNummer = []
         for rad in atomfil:
             atombeteckning, atomnamn, atomvikt = rad.strip().split(" ")
